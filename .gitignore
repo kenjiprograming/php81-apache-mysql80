@@ -1,0 +1,8 @@
+www/html/*
+!www/html/.gitkeep
+
+.docker/mysql/initdb/*
+!.docker/mysql/initdb/.gitkeep
+
+.docker/mysql/storage/*
+
