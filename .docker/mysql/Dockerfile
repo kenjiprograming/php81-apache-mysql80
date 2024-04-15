@@ -1,2 +1,2 @@
-FROM mariadb:10.3
-COPY server.cnf /etc/mysql/mariadb.conf.d/
+FROM mysql:8.0
+COPY my.cnf /etc/mysql/conf.d/my.cnf
